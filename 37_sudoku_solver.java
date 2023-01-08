@@ -24,7 +24,6 @@ class Solution {
                 }
             }
         }
-
         return true;
     }
 
@@ -62,5 +61,4 @@ class Solution {
         }
         return false;
     }
-
 }

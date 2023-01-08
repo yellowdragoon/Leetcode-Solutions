@@ -63,9 +63,7 @@ class Solution {
             prev = letterEncodings.get(c)[1];
             lastPriority = priority;
         }
-
         total += prev;
-
         return total;
     }
 }
