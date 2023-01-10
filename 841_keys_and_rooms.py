@@ -4,7 +4,6 @@ class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
 
         # directed graph, dfs from start, can reach all nodes?
-
         # note: rooms already in adj list form
 
         visited = set()
