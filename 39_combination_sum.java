@@ -10,7 +10,6 @@ class Solution {
         return combinations;
     }
 
-
     public void calcSums(int target, ArrayList<Integer> currentSum, List<List<Integer>> combs, int[] cands, int currentCoin){
         if(target < 0){
             return;
@@ -28,6 +27,5 @@ class Solution {
             calcSums(target-cands[i], currentSum ,combs, cands, i);
             currentSum.remove(currentSum.size()-1);
         }
-        
     }
 }
